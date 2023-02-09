@@ -1,0 +1,55 @@
+.card{
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	align-items:center;
+	box-shadow:2px 2px 4px lightgrey;
+	justify-content: space-around;
+}
+
+.card p{
+	flex-grow:1;
+	padding-left:60px;
+}
+
+.card button {
+  flex-grow:1 ;
+  margin-left: 50px;
+}
+.reseaux{
+	padding: 25px;
+	border-radius: 10px;
+	display: flex;
+	align-items:center;
+	margin-bottom: 15px;
+}
+.reseaux button {
+  flex-grow:1 ;
+  margin-left: 150px;
+}
+.reseaux button:hover {
+  background-color:#BDCDD6;
+}
+
+.newsletter{
+	width:850px;
+	margin:0 auto;
+	display: flex;
+	align-items:center;
+	text-align: center;
+	margin-bottom: 10px;
+	justify-content: space-around;
+}
+.newsletter button{
+	margin-top: 10px;
+	align-items:center;
+}
+#email{
+	margin-bottom: 10px;
+}
+#firstname{
+	margin-bottom: 10px;
+}
+#lastname{margin-bottom: 10px;
+}
+

@@ -1,0 +1,11 @@
+button:hover {
+  background-color:#FCF9BE;
+}
+button{
+  border-radius: 5px;
+  border: whitesmoke;
+  color: seagreen;
+  padding: 5px;
+}
+
+

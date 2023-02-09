@@ -1,0 +1,71 @@
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/menu.css");
+
+
+#banner{
+	background-color:beige;
+	background-size:cover;
+	padding:15px;
+	margin-bottom: 15px;
+}
+#bannerpromo{
+	background-image:url("https://assets.afcdn.com/story/20220105/2154777_w2000h1500c1cx854cy731cxt0cyt0cxb2000cyb2000.jpg");
+	background-size:cover;
+	border-radius: 10px;
+	text-align:center;
+	padding:1px;
+	color:whitesmoke;
+}
+
+#bannerfin{
+	background-color:#686763;
+	background-size:cover;
+	padding:30px;
+}
+
+
+h1{
+	color: black;
+	text-align: center;}
+h2{
+	color: black;
+	text-align: center;}
+h5{
+	font-size: 30px;
+	color:whitesmoke;
+	text-align: center;
+}
+h4{
+	font-size: 25px;
+	font-family: cursive;
+}
+h6{
+	font-size: 20px;
+	text-align: center;
+	color: darkolivegreen
+}
+img{
+	width:250px;
+	height:180px;
+}
+.container{
+	width:850px;
+	margin:0 auto;
+	border-radius: 10px; 
+}
+.shadowed{
+	box-shadow:2px 2px 3px lightgrey;
+}
+.img-circle{
+	border-radius: 10px;
+}
+
+.newsletter{
+	width:850px;
+	margin:0 auto;
+	border-radius: 10px; 
+	margin-bottom: 20px;
+}

@@ -1,0 +1,56 @@
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #ECECEC;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+.menu a{
+
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: beige;    /* Couleur d'arrière-plan */
+    color: black;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+}
+.menu a:hover {
+  background-color: #BDCDD6;
+  color: black;
+  border-color: black;
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: beige;    /* Arrière-plan */
+    color: black;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid black;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+    background-color: #93BFCF ; 
+    color: black;
+    border-color: black ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+  background-color: #BCE29E;
+  color: black;
+  border-color: black;
+}
