@@ -3,6 +3,7 @@
 @import url("components/container.css");
 @import url("components/card.css");
 @import url("components/menu.css");
+@import url("components/carousel.css");
 
 
 #banner{
@@ -24,6 +25,7 @@
 	background-color:#686763;
 	background-size:cover;
 	padding:30px;
+	text-align:center;
 }
 
 
@@ -61,11 +63,4 @@ img{
 }
 .img-circle{
 	border-radius: 10px;
-}
-
-.newsletter{
-	width:850px;
-	margin:0 auto;
-	border-radius: 10px; 
-	margin-bottom: 20px;
 }
