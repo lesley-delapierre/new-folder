@@ -3,7 +3,7 @@
 	border-radius: 10px;
 	display: flex;
 	align-items:center;
-	box-shadow:2px 2px 4px lightgrey;
+	box-shadow: 4px 4px 4px 4px lightgrey;
 	justify-content: space-around;
 }
 

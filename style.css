@@ -11,7 +11,27 @@
 	background-size:cover;
 	padding:15px;
 	margin-bottom: 15px;
+    animation-name: couleur;
+    animation-duration: 10s;
 }
+@keyframes couleur{
+    from{
+        background-color: beige;
+    }
+    25%{
+        background-color: #DAE2B6;
+    }
+    50%{
+        background-color: #F0DBDB;
+    }
+    75%{
+        background-color: #FFDCA9;
+    }
+    to{
+        background-color: #CFD2CF;
+    }
+}
+
 #bannerpromo{
 	background-image:url("https://assets.afcdn.com/story/20220105/2154777_w2000h1500c1cx854cy731cxt0cyt0cxb2000cyb2000.jpg");
 	background-size:cover;
@@ -34,7 +54,22 @@ h1{
 	text-align: center;}
 h2{
 	color: black;
-	text-align: center;}
+	text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 h5{
 	font-size: 30px;
 	color:whitesmoke;
@@ -53,6 +88,7 @@ img{
 	width:250px;
 	height:180px;
 }
+
 .container{
 	width:850px;
 	margin:0 auto;
